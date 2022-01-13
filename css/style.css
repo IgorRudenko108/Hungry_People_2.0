@@ -2048,6 +2048,7 @@ img.rot {
   width: 100%;
   margin: 0 10px;
   height: 70px;
+  font-size: 16px;
 }
 
 /*-- /section-contact ---------------------------------------------------------- */
@@ -2070,10 +2071,6 @@ img.rot {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-}
-
-.btn {
-  font-size: 16px;
 }
 
 /*-- footer ---------------------------------------------------------- */
