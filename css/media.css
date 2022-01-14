@@ -596,6 +596,10 @@
     margin-top: 20px;
   }
 
+  .column-book__item{
+    padding: 0;
+  }
+
   .book__time {
     padding: 80px 15px 40px;
     line-height: 160%;
