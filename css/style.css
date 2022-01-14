@@ -199,7 +199,7 @@ body {
   max-height: 1024px;
   min-height: 800px;
   height: 100vh;
-  background-image: url("/img/header/header-bg.jpg");
+  background-image: url("../img/header/header-bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
