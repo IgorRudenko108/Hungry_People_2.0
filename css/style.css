@@ -150,7 +150,7 @@ body {
   bottom: 0;
   left: 50%;
   -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
+          transform: translateX(-50%);
   width: 60px;
   height: 5px;
   background: #e8c300;
@@ -167,8 +167,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
   color: #000000;
   max-width: 600px;
@@ -195,7 +195,6 @@ body {
 /*-- header ----------------------------------------------------------*/
 .header {
   width: 100%;
-  /* max-height: 800px; */
   max-height: 1024px;
   min-height: 800px;
   height: 100vh;
@@ -221,33 +220,33 @@ body {
   top: 25px;
   left: 50%;
   -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 img.rot {
-  animation: 60s linear 0s normal none infinite running rot;
   -webkit-animation: 60s linear 0s normal none infinite running rot;
+          animation: 60s linear 0s normal none infinite running rot;
   width: 150px;
 }
 
 @keyframes rot {
   0% {
     -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
+            transform: rotate(0deg);
   }
   100% {
     -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
+            transform: rotate(360deg);
   }
 }
 @-webkit-keyframes rot {
   0% {
     -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
+            transform: rotate(0deg);
   }
   100% {
     -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
+            transform: rotate(360deg);
   }
 }
 .header-logo-image {
@@ -255,7 +254,7 @@ img.rot {
   top: 25px;
   left: 50%;
   -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 .header-logo::after {
@@ -270,7 +269,7 @@ img.rot {
   border-radius: 100%;
   z-index: -1;
   -webkit-transform: translateX(-18%);
-  transform: translateX(-18%);
+          transform: translateX(-18%);
 }
 
 .header-nav__menu-list {
@@ -297,8 +296,8 @@ img.rot {
   font-size: 12px;
   line-height: 66.6%;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
   color: #fff;
   padding-bottom: 3px;
@@ -343,11 +342,11 @@ img.rot {
   min-height: 710px;
   max-height: 100vh;
   -webkit-box-flex: 1;
-  -ms-flex: 1 1 64%;
-  flex: 1 1 64%;
+      -ms-flex: 1 1 64%;
+          flex: 1 1 64%;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .header-body__content::before {
   content: "";
@@ -378,7 +377,7 @@ img.rot {
   text-align: center;
   color: #ffffff;
   -webkit-transform: rotate(-90deg);
-  transform: rotate(-90deg);
+          transform: rotate(-90deg);
   position: absolute;
   top: 50%;
   left: -3%;
@@ -395,8 +394,8 @@ img.rot {
   margin-bottom: 20px;
   padding: 12px;
   position: relative;
-  -webkit-transition: -webkit-transform 0.3s linear;
   transition: -webkit-transform 0.3s linear;
+  -webkit-transition: -webkit-transform 0.3s linear;
   transition: transform 0.3s linear;
   transition: transform 0.3s linear, -webkit-transform 0.3s linear;
   cursor: pointer;
@@ -404,9 +403,9 @@ img.rot {
 
 .column-body__social-icon:hover {
   -webkit-transform: rotate(360deg);
-  transform: rotate(360deg);
-  -webkit-transition: -webkit-transform 0.3s linear;
+          transform: rotate(360deg);
   transition: -webkit-transform 0.3s linear;
+  -webkit-transition: -webkit-transform 0.3s linear;
   transition: transform 0.3s linear;
   transition: transform 0.3s linear, -webkit-transform 0.3s linear;
 }
@@ -416,11 +415,11 @@ img.rot {
   height: 20px;
   display: block;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
 }
 
@@ -430,14 +429,13 @@ img.rot {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   position: absolute;
   top: 50%;
   right: 3%;
   -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-  /* padding-left: 120px; */
+          transform: translateY(-50%);
 }
 
 /* --------------------------------------------- */
@@ -457,15 +455,15 @@ img.rot {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
   text-align: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   align-items: center;
   margin-bottom: 40px;
   padding: 0 10px 30px;
@@ -477,7 +475,7 @@ img.rot {
   bottom: 0;
   left: 50%;
   -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
+          transform: translateX(-50%);
   width: 60px;
   height: 5px;
   background: #e8c300;
@@ -494,15 +492,15 @@ img.rot {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
   letter-spacing: 0.5em;
   text-transform: uppercase;
   color: #ffffff;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding-top: 200px;
   padding-bottom: 15px;
 }
@@ -512,16 +510,16 @@ img.rot {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .header-body__buttons-item {
   width: 200px;
   height: 100%;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
   margin: 0 20px;
 }
@@ -533,8 +531,8 @@ img.rot {
   font-size: 12px;
   line-height: 20px;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
   color: #ffffff;
   background: transparent;
@@ -560,14 +558,13 @@ img.rot {
   font-size: 12px;
   line-height: 20px;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
   color: #fff;
   background: #e8c300;
   border-radius: 5px;
   padding: 15px 50px;
-  /* margin-right: 40px; */
   border: 1px solid #e8c300;
   text-align: center;
   -webkit-transition: background 0.3s ease;
@@ -589,10 +586,10 @@ img.rot {
   position: absolute;
   left: 47.5%;
   -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
+          transform: translateX(-50%);
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: 10px;
   background-color: #fff;
   border-radius: 100%;
@@ -603,15 +600,15 @@ img.rot {
   transition: background-color 0.2s ease;
   padding: 10px;
   -webkit-animation-name: header-body__arrow;
-  animation-name: header-body__arrow;
+          animation-name: header-body__arrow;
   -webkit-animation-duration: 1s;
-  animation-duration: 1s;
+          animation-duration: 1s;
   -webkit-animation-timing-function: linear;
-  animation-timing-function: linear;
+          animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
   -webkit-animation-direction: alternate;
-  animation-direction: alternate;
+          animation-direction: alternate;
 }
 
 .header-body__arrow:hover {
@@ -623,21 +620,21 @@ img.rot {
 @-webkit-keyframes header-body__arrow {
   0% {
     -webkit-transform: translateY(0);
-    transform: translateY(0);
+            transform: translateY(0);
   }
   100% {
     -webkit-transform: translateY(8px);
-    transform: translateY(8px);
+            transform: translateY(8px);
   }
 }
 @keyframes header-body__arrow {
   0% {
     -webkit-transform: translateY(0);
-    transform: translateY(0);
+            transform: translateY(0);
   }
   100% {
     -webkit-transform: translateY(8px);
-    transform: translateY(8px);
+            transform: translateY(8px);
   }
 }
 .header-body__arrow img {
